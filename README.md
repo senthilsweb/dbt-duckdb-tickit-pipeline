@@ -1,7 +1,7 @@
 # dbt-duckdb-tickit-pipeline
 Seamless data engineering workflow using dbt with DuckDB for the TickitDB schema, focusing on local data lake development and robust data practices.
 
-![Data Lineage](/dbt-duckdb-tickit-pipeline.png)]
+![Data Lineage](/dbt-duckdb-tickit-pipeline.png)
 
 # Introduction
 
