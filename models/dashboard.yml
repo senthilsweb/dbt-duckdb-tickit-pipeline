@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  
+  - name: tickit_sales_summary
+    type: dashboard
+    maturity: medium
+    url: https://evidence.dev/
+    description: >
+      The TICKIT sales summary dashboard is authored using the Evidence framework, which enables visualization as code. This dashboard provides a comprehensive overview of sales performance metrics and insights.
+    
+    depends_on:
+      - ref('fct_sales')
+      - ref('fct_listings')
+      
+    owner:
+      name: Gary A. Stafford
+      email: gary.a.stafford@gmail.com

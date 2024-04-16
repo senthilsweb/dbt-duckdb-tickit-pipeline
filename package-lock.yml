@@ -1,0 +1,10 @@
+packages:
+- package: dbt-labs/dbt_external_tables
+  version: 0.8.7
+- package: dbt-labs/codegen
+  version: 0.12.1
+- package: calogica/dbt_date
+  version: 0.10.0
+- package: dbt-labs/dbt_utils
+  version: 1.1.1
+sha1_hash: cb52a9b034de9b578ee8bbe9ad335c420ba052ff

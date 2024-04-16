@@ -1,0 +1,18 @@
+sporting_event_sales_db:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: sporting_event_sales_db.duckdb
+      schema: raw
+      threads: 24
+
+    prod:
+      type: postgres
+      threads: 10
+      host: 
+      port: 5432
+      user: 
+      pass: 
+      dbname: sporting_event_sales_db
+      schema: raw
