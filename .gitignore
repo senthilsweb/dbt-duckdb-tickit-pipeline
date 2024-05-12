@@ -245,3 +245,5 @@ dmypy.json
 cython_debug/
 
 *.sporting_event_sales_db
+sporting_event_sales_db.duckdb
+edr_target/

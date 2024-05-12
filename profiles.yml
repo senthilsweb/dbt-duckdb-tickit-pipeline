@@ -16,3 +16,14 @@ sporting_event_sales_db:
       pass: 
       dbname: sporting_event_sales_db
       schema: raw
+elementary:
+  outputs:
+    default:
+      type: postgres
+      threads: 10
+      host: 
+      port: 5432
+      user: 
+      pass: 
+      dbname: tickit_db
+      schema: elementary
