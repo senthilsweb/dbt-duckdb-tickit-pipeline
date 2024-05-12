@@ -25,6 +25,7 @@ Install dbt and verify the installation with the following commands:
 ```bash
 pip install -r requirements.txt  
 dbt --version
+pip freeze > requirements.txt
 ```
 
 **Optional**: To use PostgreSQL instead of DuckDB, upgrade your dbt installation for PostgreSQL compatibility:
