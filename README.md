@@ -107,3 +107,14 @@ dbt-ol run  # Run dbt with Open Lineage collection
 
 **Note**: Replace `[ip_address]` and `[port]` with the actual IP address and port number of your Marquez server.
 
+### Elementary Data Observability
+
+```
+pip install elementary-data  
+pip install 'elementary-data[duckdb]'  
+pip install 'elementary-data[postgres]' 
+dbt run --select elementary 
+dbt test  --select elementary   
+edr --help   
+edr report   
+```     
